@@ -111,7 +111,7 @@ begin
     s.email = EMAIL
     s.description = DESCRIPTION
     s.authors = AUTHOR
-    s.homepage = "git@github.com:shobee/right_http_connection"
+    s.homepage = "http://github.com/shobee/right_http_connection"
     s.files =  FileList["[A-Z]*", "{app,config,lib}/**/*"]
     s.extra_rdoc_files = FileList["[A-Z]*"] - %w(Gemfile Rakefile)
   end
