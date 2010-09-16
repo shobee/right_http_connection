@@ -107,6 +107,10 @@ begin
   Jeweler::Tasks.new do |s|
     s.name = "right_http_connection"
     s.version = VERS
+    s.summary = DESCRIPTION
+    s.email = EMAIL
+    s.description = DESCRIPTION
+    s.authors = AUTHOR
     s.homepage = "git@github.com:shobee/right_http_connection"
     s.files =  FileList["[A-Z]*", "{app,config,lib}/**/*"]
     s.extra_rdoc_files = FileList["[A-Z]*"] - %w(Gemfile Rakefile)
