@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
      "lib/right_http_connection.rb",
      "lib/support.rb"
   ]
-  s.homepage = %q{git@github.com:shobee/right_http_connection}
+  s.homepage = %q{http://github.com/shobee/right_http_connection}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
