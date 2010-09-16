@@ -101,3 +101,18 @@ task :check_version do
     exit
   end
 end
+
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |s|
+    s.name = "right_http_connection"
+    s.version = VERS
+    s.homepage = "git@github.com:shobee/right_http_connection"
+    s.files =  FileList["[A-Z]*", "{app,config,lib}/**/*"]
+    s.extra_rdoc_files = FileList["[A-Z]*"] - %w(Gemfile Rakefile)
+  end
+
+  Jeweler::GemcutterTasks.new
+rescue LoadError
+  puts "Jeweler, or one of its dependencies, is not available. Install it with: gem install jeweler"
+end
