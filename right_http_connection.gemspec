@@ -8,7 +8,10 @@ Gem::Specification.new do |s|
   s.version = "1.2.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.authors = ["RightScale"]
   s.date = %q{2010-09-16}
+  s.description = %q{RightScale's robust HTTP/S connection module}
+  s.email = %q{rubygems@rightscale.com}
   s.extra_rdoc_files = [
     "History.txt",
      "Manifest.txt",
@@ -27,7 +30,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = nil
+  s.summary = %q{RightScale's robust HTTP/S connection module}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
